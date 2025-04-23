@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(205, 249, 195); 
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+ div.cont {
+    max-width:1400px;
+ }
+ div.left
+ {
+    align-self: last baseline;
+ }
+ 
