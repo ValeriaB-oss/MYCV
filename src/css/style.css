@@ -1,21 +1,88 @@
+h1,h2,h3,h4,h5,h6 { 
+  font-family: "Roboto", sans-serif;
+}
 body {
-    background-color: rgb(205, 249, 195); 
+    background-color: light-grey; 
   }
   
   h1 {
-    color: white;
+    color: green;
     text-align: center;
   }
   
   p {
-    font-family: verdana;
+    font-family: Segoe UI;
     font-size: 20px;
   }
- div.cont {
+ div {
     max-width:1400px;
+    background-color: rgb(255, 255, 255);
  }
- div.left
- {
-    align-self: last baseline;
- }
+ .coleft {
+max-width: 20%;
+float: left;
+  padding: 8px;
+  display: block;
+  box-shadow: 2px 1px 1px 1px gray;
+  
  
+ }
+ .work
+ {
+    float: right;
+    width: 75%;
+    padding: 8px;
+    margin: auto;
+    display: block;
+    box-shadow: 2px 1px 1px 1px gray;
+  }
+ .educ
+ {
+  float: right;
+  width: 75%;
+    padding: 8px;
+    margin-top: 20px;
+    display: block;
+    box-shadow: 2px 1px 1px 1px gray;
+ }
+#profil
+{
+  width: 150px;
+  border-radius: 5px;
+}
+#icon {
+  width: 50px;
+ }
+
+footer
+{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(3, 180, 71);
+  color: white;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
